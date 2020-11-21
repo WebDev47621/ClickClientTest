@@ -11,7 +11,6 @@ function addItem(event) {
     item.style.left = x + 'px';
     item.style.transform = 'translate(-50%, -50%)';
     item.classList.add('item');
-    // console.log(item.style.top, item.style.top);
 
     test.appendChild(item);
 }
